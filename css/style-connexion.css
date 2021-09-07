@@ -1,0 +1,128 @@
+/*===================Global style======================*/
+.container{
+    max-width: 100% ;
+    margin: auto;
+}
+.logo{
+    padding: 10px 50px;
+}
+.logo a{
+    color: var(--white-900);
+    text-transform: capitalize;
+}
+/*==================mini section 1 style======================*/
+.mini-section-1{
+    height: 627px;
+    width: 40%;
+    content: '';
+    background-color: var(--dark-800);
+}
+.mini-section-1 .mini-section-1-text{
+    padding: 0 50px;
+    margin: 150px 0;
+    line-height: 1.5;
+}
+.mini-section-1 .mini-section-1-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--main-color);
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-bottom: 40px;
+}
+.mini-section-1 .mini-section-1-text h1 span{
+    color: var(--color-2);
+    position: relative;
+    z-index: 1;
+}
+.mini-section-1 .mini-section-1-text h1 span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 15px;
+    height: 2px;
+    background-color:var(--white-900);
+    transform: skewY(-3deg);
+    z-index: -1;
+}
+.mini-section-1 .mini-section-1-text p{
+    display: flex;
+    left: 0;
+    padding:0 130px 30px 0;
+}
+
+/*==================mini section 1 style======================*/
+.mini-section-2{
+    height: 627px;
+    width: 60%;
+    padding: 5% 5%;
+    background-color: var(--white-700);
+}
+.section-2-logo{
+    color: var(--dark-800);
+}
+.mini-section-2 .mini-section-2-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--main-color);
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.mini-section-2 .mini-section-2-text .social-links{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.mini-section-2 .mini-section-2-text .social-links a{
+    display: inline-block;
+    border: transparent;
+    height: 35px;
+    width: 35px;
+    color: var(--main-color);
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+}
+.mini-section-2 .mini-section-2-text .social-links a:hover{
+    color: var(--dark-800);
+    border-color: var(--dark-800);
+}
+.mini-section-2 .mini-section-2-text p{
+    text-align: center;
+    color: var(--dark-700);
+    padding: 15px 0;
+}
+.mini-section-2 form{
+    padding-left: 140px;
+}
+.input-control{
+    height: 40px;
+    width: 70%;
+    display: block;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    border-radius: 5px;
+    background-color: var(--white-800);
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: capitalize;
+    color: var(--dark-800);
+    font-weight: 300;
+    transition: all 0.5s ease;
+}
+.input-control::placeholder{
+    color: var(--dark-800);
+}
+.input-control:focus{
+    border-color: var(--main-color);
+}
+.connexion{
+    position: relative;
+    left: 100px;
+}

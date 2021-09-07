@@ -1,0 +1,30 @@
+.toolbar{
+    margin-bottom: 10px;
+}
+.text-editor{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    min-height: 150px;
+    width: 40%;
+}
+.colors, .alignements, .weights{
+    display: inline-block;
+}
+.btncolors{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    cursor: pointer;
+}
+.color-blue{
+    background-color: blue;
+}
+.color-black{
+    background-color: black;
+}
+.color-red{
+    background-color: red;
+}
+.color-green{
+    background-color: green;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text editor</title>
+    <link rel="stylesheet" href="css/style-editor.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+<!--======================toolbar start=======================-->
+    <div class="toolbar">
+        <div class="alignements">
+            <button class="btnposition btn-text-left" data-position="left">Left</button>
+            <button class="btnposition btn-text-center" data-position="center">Center</button>
+            <button class="btnposition btn-text-right" data-position="right">Right</button>
+        </div>
+        <div class="colors">
+            <div class="btncolors color-red" data-color="red"></div>
+            <div class="btncolors color-blue" data-color="blue"></div>
+            <div class="btncolors color-black" data-color="black"></div>
+            <div class="btncolors color-green" data-color="green"></div>
+        </div>
+        <div class="weights">
+            <input style="width: 60px; height: 15px;" list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+            <datalist id="ice-cream-flavors">
+                <option class="weight weight-500" data-waight="500" value="500">
+                <option class="weight weight-600" data-waight="600" value="600">
+                <option class="weight weight-700" data-waight="700" value="700">
+                <option class="weight weight-800" data-waight="800" value="800">
+                <option class="weight weight-900" data-waight="900" value="900">
+                <option class="weight weight-bold" data-waight="bold" value="bold">
+            </datalist>
+        </div>
+
+    </div>
+<!--=====================toolbar end===========================-->
+<!--==================Content editable start====================-->
+<div class="text-editor" contenteditable="">
+    Hello ! Team how are you doing?
+</div>
+<!--==================Content editable end======================-->
+</body>
+</html>

@@ -1,0 +1,87 @@
+.course-section{
+    width: 65%;
+    height: auto;
+    content: '';
+}
+.course-section .course-section-header{
+    width: 100%;
+    background-color: var(--dark-800);
+    height: 50px;
+    /*position: fixed;*/
+    border-bottom: 1px solid var(--dark-700);
+    float: right;
+}
+.course-section .course-section-header #nav-check{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+}
+.course-section .course-section-header#nav-check:focus ~ .nav-toggler{
+    box-shadow: 0 0 10px var(--main-color);
+}
+.course-section .course-section-header.nav-toggler{
+    height: 34px;
+    width: 44px;
+    border: 1px solid var(--main-color);
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.course-section .course-section-header.nav-toggler span{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: var(--main-color);
+    position: relative;
+}
+.course-section .course-section-header#nav-check:checked ~ .nav-toggler span{
+    background-color: transparent;
+}
+.course-section .course-section-header.nav-toggler span::before,
+.course-section .course-section-header.nav-toggler span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--main-color);
+}
+.course-section .course-section-header.nav-toggler span::before{
+    transform: translateY(-6px);
+}
+.course-section .course-section-header#nav-check:checked ~ .nav-toggler span::before{
+    transform: rotate(45deg);
+}
+.course-section .course-section-header.nav-toggler span::after{
+    transform: translateY(6px);
+}
+.course-section .course-section-header#nav-check:checked ~ .nav-toggler span::after{
+    transform: rotate(-45deg);
+}
+<!--<div class="course-section-header">
+                        <input type="checkbox" id="nav-check">
+                        <label for="nav-check" class="nav-toggler">
+                            <span></span>
+                        </label>
+                    </div>-->
+                    <div class="course-section-course">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quaerat quibusdam perferendis distinctio nulla ab perspiciatis ullam!
+                        Id cum, nulla, atque voluptas fugit inventore voluptate est dicta labore velit officia beatae!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Architecto provident dignissimos sunt doloremque? 
+                        Rem saepe, culpa sequi nobis voluptate ullam unde minus quaerat, 
+                        doloribus nemo modi iusto velit, optio dolor.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis voluptatum nulla repellat. Magnam, quidem. Praesentium eos voluptate at nihil? Eligendi sed ratione error praesentium minima dolorem nesciunt, nulla animi!
+                        Quis architecto voluptatum voluptatem mollitia! Rerum repellat dolore ut. Ipsam similique harum enim minus, deserunt distinctio, blanditiis hic debitis quisquam ut consequatur minima quam esse quia itaque. Similique, fuga non.
+                        Eaque assumenda error, aliquid accusamus explicabo numquam atque cum possimus nostrum eveniet voluptatibus quam alias nobis illum laboriosam amet saepe autem neque illo excepturi officia eligendi reprehenderit magni perferendis! Laudantium.
+                        Eligendi aperiam magni unde cupiditate amet! Accusamus recusandae tenetur eligendi minima. Dicta dolores quibusdam itaque pariatur modi ipsam dolore possimus, animi, quis, placeat voluptas accusamus magni accusantium iure aut optio?
+                        Perferendis, optio similique provident sit illum ipsa explicabo debitis repellendus. Amet deleniti quas tempora soluta, eligendi fugit minus placeat, laborum velit sint ipsum autem provident aliquid? Perspiciatis suscipit itaque maiores?
+                        Voluptatem molestiae tempore impedit ut quas quo aliquam at? Impedit, iusto repellendus? Cumque odio ullam tempore aliquam quas. Laboriosam distinctio quia vel? Consectetur labore corrupti eum vero. Repellat, deserunt voluptas!
+                        Impedit doloribus quaerat asperiores minus delectus saepe amet, officia voluptatum tempore modi molestias quidem architecto doloremque, accusamus praesentium rem iste inventore. Repudiandae dolores earum quisquam, ullam debitis assumenda inventore recusandae!
+                        Labore, consectetur pariatur! Corporis sunt reiciendis natus, optio laudantium consectetur quo commodi, quod ipsum officia odit! Optio fugiat, iusto veniam molestiae repellendus eligendi illo cumque quis placeat eaque. Sint, dolorum!
+                        Ab rerum, quaerat, dolorem facilis impedit incidunt itaque enim eaque odit libero illo quas iste tempora beatae dignissimos earum aut, exercitationem blanditiis nemo cum atque veniam dolor optio sint? Veritatis?
+                        Deleniti, adipisci sed? Consequuntur inventore eum iure, praesentium provident unde aperiam saepe, harum non recusandae tempore assumenda doloremque asperiores, quisquam quam tenetur vel ad velit eius sequi? Fugiat, illum harum.
+                    </div>
